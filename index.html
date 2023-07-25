@@ -36,8 +36,8 @@
   </style>
 </head>
 
-<body class="eb-garamond max-w-screen-xl mx-auto px-8 md:px-16 lg:px-18 py-6 my-2">
-  <header>
+<body class="eb-garamond ">
+  <header class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-18 py-6 my-2">
     <!-- navbar start here -->
     <nav>
       <div class="navbar bg-base-100 lg:flex md:flex inline">
@@ -116,7 +116,7 @@
     <!-- banner section End -->
   </header>
 
-  <main>
+  <main class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-18 py-6 my-2">
     <!-- The Legal Practice Area -->
     <section class="my-16">
       <h1 class="text-4xl font-bold text-center pt-16">The Legal Practice Area</h1>
@@ -205,13 +205,23 @@
       <p class="text-xl text-center mb-12">There are many variations of passages of Lorem Ipsum available, but the
         majority have <br>suffered alteration in some form, by injected humour.</p>
       <!-- slider start -->
-      <div class="carousel w-full">
+      <div class="carousel w-full h-96">
+
         <div id="slide1" class="carousel-item relative w-full ">
           <img src="./images/slider-1.jpg" class="w-full" />
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a>
             <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+          <!-- top-[50%] left-[40%] -->
+          <div class="absolute top-[20%] left-[20%] items-center text-white text-center]">
+            <div class="text-center flex justify-center mb-2">
+              <img class="w-[70px] h-[70px] rounded-full border-white border-4 " src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbiUyMGZhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <h2 class="font-bold text-2xl text-center">Awlad Hossain</h2>
+            <p class="pb-8 text-center">UIX Designer</p>
+            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br>literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
           </div>
         </div>
         <div id="slide2" class="carousel-item relative w-full">
@@ -220,12 +230,28 @@
             <a href="#slide1" class="btn btn-circle">❮</a>
             <a href="#slide3" class="btn btn-circle">❯</a>
           </div>
+          <div class="absolute top-[20%] left-[20%] items-center text-white text-center]">
+            <div class="text-center flex justify-center mb-2">
+              <img class="w-[70px] h-[70px] rounded-full border-white border-4 " src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbiUyMGZhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <h2 class="font-bold text-2xl text-center">Awlad Hossain</h2>
+            <p class="pb-8 text-center">UIX Designer</p>
+            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br>literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
+          </div>
         </div>
         <div id="slide3" class="carousel-item relative w-full">
           <img src="./images/slider-3.jpg" class="w-full" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
             <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+          <div class="absolute top-[20%] left-[20%] items-center text-white text-center]">
+            <div class="text-center flex justify-center mb-2">
+              <img class="w-[70px] h-[70px] rounded-full border-white border-4 " src="https://images.unsplash.com/photo-1552374196-c4e7ffc6e126?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fG1hbiUyMGZhY2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="">
+            </div>
+            <h2 class="font-bold text-2xl text-center">Awlad Hossain</h2>
+            <p class="pb-8 text-center">UIX Designer</p>
+            <p class="text-center">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin <br>literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney <br> College in Virginia, looked up one of the more obscure Latin words, consectetur.</p>
           </div>
         </div>
       </div>
@@ -276,7 +302,7 @@
           </div>
         </div>
         <div>
-          <img class="w-1/2" src="./images/faq.png" alt="">
+          <img class="w-1/2 lg:w-[550px]" src="./images/faq.png" alt="">
         </div>
       </div>
     </section>
@@ -301,7 +327,7 @@
                 </div>
               </div>
               <!-- 2 -->
-              <div class="border-gray-300 border-b-2 text-center p-8 bg-[#F3F3F3]">
+              <div class="border-gray-300 border-b-2 text-center p-8 w-50 bg-[#F3F3F3]">
                 <div class="w-50 pt-8">
                   <div class="flex justify-center items-center mb-4">
                     <img src="./images/call.png" alt="">
@@ -312,7 +338,7 @@
                 </div>
               </div>
               <!-- 3 -->
-              <div class="border-gray-300 border-r-2  text-center p-8 bg-[#F3F3F3]">
+              <div class="border-gray-300 border-r-2  text-center w-50 p-8 bg-[#F3F3F3]">
                 <div class="w-50 pt-8">
                   <div class="flex justify-center items-center mb-4">
                     <img src="./images/email.png" alt="">
@@ -323,7 +349,7 @@
                 </div>
               </div>
               <!-- 4 -->
-              <div class="border-gray-300 text-center p-8 bg-[#F3F3F3]">
+              <div class="border-gray-300 w-50 text-center p-8 bg-[#F3F3F3]">
                 <div class="w-50 pt-8">
                   <div class="flex justify-center items-center mb-4">
                     <img src="./images/time.png" alt="">
@@ -337,18 +363,18 @@
           <!-- input -->
             <div class="items-center">
                 <div>
-                  <input type="text" placeholder="Your Name" class="input w-[500px] bg-[#F3F3F3] mb-6" />
+                  <input type="text" placeholder="Your Name" class="input lg:w-[500px] bg-[#F3F3F3] mb-6" />
                   <div>
-                    <input type="text" placeholder="Your Email" class="input w-[500px] bg-[#F3F3F3] mb-6" />                 
+                    <input type="text" placeholder="Your Email" class="input lg:w-[500px] bg-[#F3F3F3] mb-6" />                 
                   </div>
                   <div>
-                    <input type="text" placeholder="Subject" class="input w-[500px] bg-[#F3F3F3] mb-6" />
+                    <input type="text" placeholder="Subject" class="input lg:w-[500px] bg-[#F3F3F3] mb-6" />
                   </div>                  
                   <div>
-                    <input type="text" placeholder="Your Message" class="input text-start py-24 w-[500px] bg-[#F3F3F3] mb-4" />
+                    <input type="text" placeholder="Your Message" class="input text-start py-24 lg:w-[500px] bg-[#F3F3F3] mb-4" />
                   </div>   
                   <div>
-                    <button class="btn bg-btn-css w-[500px]">Wide</button>
+                    <button class="btn text-white bg-btn-css lg:w-[500px]">Wide</button>
                   </div>               
                 </div>
             </div>
@@ -357,7 +383,49 @@
      <!-- Contact With Us start -->
   </main>
 
-  <footer></footer>
+  <footer>
+    <footer class="footer py-16 px-24 bg-black text-white text-base-content">
+      <div>
+        <div class="flex justify-center items-center gap-2 text-center-c">
+          <img class="w-10" src="./images/business.png" alt="">
+          <span class="text-2xl font-bold text-white">            
+            Justice</span> 
+        </div>
+        <a class="link link-hover text-[#CFCFCF]">There are many variations of passage</a> 
+        <a class="link link-hover text-[#CFCFCF]">of Lorem Ipsum available, but the</a> 
+        <a class="link link-hover text-[#CFCFCF]">majority have suffered alteration in</a> 
+        <a class="link link-hover text-[#CFCFCF]">some form, by injected humour.</a>
+      </div> 
+      <!--  -->
+      <div>
+        <span class="text-2xl font-bold text-white">            
+          Usefull Link</span> 
+        <a class="link link-hover text-[#CFCFCF]">Homes</a> 
+        <a class="link link-hover text-[#CFCFCF]">About Us</a> 
+        <a class="link link-hover text-[#CFCFCF]">Cases</a> 
+        <a class="link link-hover text-[#CFCFCF]">Blog</a>
+        <a class="link link-hover text-[#CFCFCF]">Contact Us</a>
+      </div> 
+      <!--  -->
+      <div>
+        <span class="text-2xl font-bold text-white">Contact Now</span>
+        <a class="link link-hover text-[#CFCFCF]">555 4th 5t NW, Washington <br>DC 20530, United States</a> 
+        <a class="link link-hover text-[#CFCFCF]">+88 01750 000 000 <br>+88 01750 000 000</a> 
+        <a class="link link-hover text-[#CFCFCF]">info@gmail.com
+        <br>info@gmail.com</a>
+      </div> 
+      <div>
+        <span class="text-2xl font-bold text-white">Contact Now</span>
+        <div class="form-control w-80">
+          <a class="link link-hover text-[#CFCFCF]">Subscribe for our latest & <br>Articles. We Won’t Give You     <br>Spam Mails</a>
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class="input input-bordered w-1/2 mt-4" /> 
+            <button class="btn bg-btn-css absolute top-0  right-32 rounded-l-none mt-4"><i class="fa-regular text-white fa-paper-plane"></i></button>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </footer>
 </body>
 
 </html>
